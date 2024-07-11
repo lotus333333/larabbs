@@ -13,7 +13,8 @@
 
   <!-- Styles -->
   <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-
+  <!-- Scripts -->
+  <script src="{{ mix('js/app.js') }}"></script>
 </head>
 
 <body>
@@ -32,8 +33,6 @@
   @include('layouts._footer')
 </div>
 
-<!-- Scripts -->
-<script src="{{ mix('js/app.js') }}"></script>
 </body>
 
 </html>

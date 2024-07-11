@@ -24,3 +24,4 @@
   </div>
 </nav>
 <script src="{{ mix('js/app.js') }}"></script>
+<link href="{{ mix('css/app.css') }}" rel="stylesheet">
