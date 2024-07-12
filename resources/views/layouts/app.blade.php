@@ -34,5 +34,5 @@
 </div>
 
 </body>
-
+<div id="app" class="{{ route_class() }}-page"></div>
 </html>
