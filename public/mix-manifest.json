@@ -1,4 +1,13 @@
 {
-    "/js/app.js": "/js/app.js?id=40c6c083975321b02b590e6ae02613ea",
-    "/css/app.css": "/css/app.css?id=131c4a421a24a823faf181f8d7e52e61"
+    "/js/app.js": "/js/app.js?id=581f9a9da4fd06b7ed734ef69277c0f5",
+    "/css/app.css": "/css/app.css?id=131c4a421a24a823faf181f8d7e52e61",
+    "/js/hotkeys.js": "/js/hotkeys.js?id=60b95061e721b635da02b5cc7792204b",
+    "/js/hotkeys.min.js": "/js/hotkeys.min.js?id=4a8220e66a724af939fe4c4f937e42c5",
+    "/js/module.js": "/js/module.js?id=1f0206730b87684b7ad654a458319014",
+    "/js/module.min.js": "/js/module.min.js?id=86779df555d66c5a5fe2848cc5c6d8b0",
+    "/js/simditor.js": "/js/simditor.js?id=e19ffe3d664de3d4228a9bd3573b4a6b",
+    "/js/simditor.min.js": "/js/simditor.min.js?id=4f2cd1b5ab78f8019b00bc78a8f7ce97",
+    "/js/uploader.js": "/js/uploader.js?id=0e7f04273d8e2a0a834c6884635bb6d9",
+    "/js/uploader.min.js": "/js/uploader.min.js?id=5bcc99ad910e74f9b85f6ea84a700305",
+    "/css/simditor.css": "/css/simditor.css?id=69eb7767d3b20549b33fafd8e1255363"
 }

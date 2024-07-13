@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<!-- Styles -->
+<link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
+@yield('styles')
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,7 +35,10 @@
 
   @include('layouts._footer')
 </div>
+<!-- Scripts -->
+<script src="{{ mix('js/app.js') }}"></script>
 
+@yield('scripts')
 </body>
 <div id="app" class="{{ route_class() }}-page"></div>
 </html>
