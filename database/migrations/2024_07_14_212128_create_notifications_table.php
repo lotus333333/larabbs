@@ -11,7 +11,7 @@ return new class extends Migration
      *
      * @return void
      */
-   /* public function up()
+   public function up()
     {
         Schema::create('notifications', function (Blueprint $table) {
             $table->uuid('id')->primary();
@@ -28,8 +28,8 @@ return new class extends Migration
      *
      * @return void
      */
-   /* public function down()
+    public function down()
     {
         Schema::dropIfExists('notifications');
-    }*/
+    }
 };

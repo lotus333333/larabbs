@@ -8,7 +8,7 @@ return new class extends Migration
 {
 	public function up()
 	{
-		Schema::create('topics', function(Blueprint $table) {
+	Schema::create('topics', function(Blueprint $table) {
             $table->increments('id');
             $table->string('title')->index();
             $table->text('body');
