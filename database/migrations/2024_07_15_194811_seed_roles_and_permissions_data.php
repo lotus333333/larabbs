@@ -9,11 +9,6 @@ use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
         // 需清除缓存，否则会报错
@@ -35,11 +30,6 @@ return new class extends Migration
         $maintainer->givePermissionTo('manage_contents');
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         // 需清除缓存，否则会报错

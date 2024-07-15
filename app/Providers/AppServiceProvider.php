@@ -18,9 +18,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        if (app()->isLocal()) {
+            $this->app->register(\VIACreative\SudoSu\ServiceProvider::class);
+        }
     }
-
     /**
      * Bootstrap any application services.
      *
@@ -33,4 +34,5 @@ class AppServiceProvider extends ServiceProvider
         Topic::observe(TopicObserver::class);
         Reply::observe(ReplyObserver::class);
     }
+
 }
