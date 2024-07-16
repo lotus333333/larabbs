@@ -51,9 +51,9 @@ return array(
         ],
         '站点管理' => [
             'settings.site',
+            'links',
         ],
     ],
-
     /*
      * 权限控制的回调函数。
      *
